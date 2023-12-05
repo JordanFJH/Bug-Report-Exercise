@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import FirstLevel from "./level1/Main"
+import SecondLevel from "./level2/Main"
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<FirstLevel/>
+<SecondLevel/>
     </div>
   );
 }
